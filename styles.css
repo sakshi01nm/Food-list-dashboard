@@ -1,0 +1,204 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  width: 250px;
+  background: white;
+  padding: 20px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+.logo span {
+  color: #fdbb00;
+}
+.menu-item {
+  display: flex;
+  margin: 14px;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  color: #999;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 16px;
+}
+.menu-item .icon {
+  margin-right: 10px;
+}
+.menu-item:hover,
+.menu-item.active {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #fdbb00;
+  align-items: center;
+  position: center;
+  text-align: center;
+}
+.upgrade-box {
+  background: #fdbb00;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px;
+}
+.upgrade-box p {
+  color: white;
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+.upgrade-box button {
+  background: white;
+  color: #fdbb00;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+.dashboard {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  font-size: 24px !important;
+  color: #222;
+}
+.table-container h2 {
+  font-size: 24px;
+}
+.banner {
+  background: #fdbb00;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+}
+.banner-content h2 {
+  font-size: 24px;
+  margin: 0;
+}
+.banner-content p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.banner img {
+  width: 300px;
+  height: 100%;
+  background-color: none;
+}
+.table-container {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 16px !important;
+}
+
+th,
+td,
+tr {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid #eeeeee !important;
+  border-left: 2px solid #eeeeee !important ;
+  border-right: 2px solid #eeeeee !important ;
+  border-top: 2px solid #eeeeee !important ;
+}
+th {
+  background: #f8f8f8;
+}
+.status {
+  font-weight: bold;
+}
+.pending {
+  color: blue;
+}
+.cancel {
+  color: red;
+}
+.success {
+  color: green;
+}
+.table {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+.main-cont {
+  display: flex;
+  margin-top: 0px !important;
+  align-items: top !important;
+  height: 200%;
+  padding-top: 24px;
+}
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner img {
+    width: 100px;
+    margin-top: 10px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .banner-content h2 {
+    font-size: 20px;
+  }
+  .banner-content p {
+    font-size: 12px;
+  }
+  th,
+  td {
+    padding: 8px;
+  }
+}
+@media (max-width: 480px) {
+  .dashboard {
+    padding: 15px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  .banner-content h2 {
+    font-size: 18px;
+  }
+  .banner-content p {
+    font-size: 10px;
+  }
+  .banner img {
+    width: 80px;
+  }
+  table,
+  th,
+  td {
+    font-size: 12px;
+  }
+}
